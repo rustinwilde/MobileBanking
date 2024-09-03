@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Bank Respublika
+
+  Created by Rustin Wilde on 20.06.24.
+  
+*/
+
+"order_card_name_screen_headline_title" = "Cashback Card";
+
+"order_card_headline_title" = "About the card";
+"order_card_subheadline_description_short_title" = "You no longer need to purchase debit and installment cards separately. We have combined these functions in the Bank Respublika";
+"order_card_subheadline_description_long_title" = "You no longer need to purchase debit and installment cards separately. We have combined these functions in the Bank Respublika Cashback card.\n\nWhen you request a card, we will verify your information, usually taking just a few seconds.\n\nIf you want to apply for an installment card, please proceed with your order after the verification process is complete.\n\nIf you qualify for a loan, a credit line will be activated on your card. If you prefer to order a debit card, you can do so after verification by clicking the “I want a debit card” button.\n\nIf the credit line is not activated, or if you order a debit card, you will have the option to apply for credit line activation later through the Bank Respublika app.";
+
+"order_card_headline_tariffs_title" = "Card tariffs";
+"order_card_card_delivery_title" = "Card delivery";
+"order_card_card_price_title" = "Card price";
+"order_card_transfer_and_withdrawal_title" = "Transfer and withdrawal";
+"order_card_free_description" = "Free";
+"order_card_grace_period_title" = "Grace period";
+"order_card_grace_period_description" = "Up to 63 days";
+"order_card_bonuses_title" = "Bonuses";
+"order_card_bonuses_description" = "2x VAT, up to 30% cashback";
+"order_card_installments_title" = "Installments";
+"order_card_installments_description" = "Up to 24 months";
+
+"order_card_button_title" = "Order";
+
+"next_screen_button_title" = "Next";
+"send_amount_button_title" = "Send";

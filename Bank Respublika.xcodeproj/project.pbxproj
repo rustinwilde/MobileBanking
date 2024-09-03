@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761887B42C24873300BD2CE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 761887B22C24873300BD2CE0 /* Localizable.strings */; };
+		762789422C3C64B9007CB4DC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 762789412C3C64B9007CB4DC /* SnapKit */; };
+		76350E122C29ACBF00A57AA6 /* CardDetailInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76350E112C29ACBE00A57AA6 /* CardDetailInformation.swift */; };
+		76350E142C29AD0500A57AA6 /* CardDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76350E132C29AD0500A57AA6 /* CardDetailService.swift */; };
+		76350E162C29B3AD00A57AA6 /* CardDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76350E152C29B3AD00A57AA6 /* CardDetailCell.swift */; };
+		76350E192C2EB71300A57AA6 /* BankCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76350E182C2EB71300A57AA6 /* BankCardCollectionViewCell.swift */; };
+		76350E1D2C2EC5C300A57AA6 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76350E1C2C2EC5C200A57AA6 /* CardManager.swift */; };
+		76350E1F2C2EDB0300A57AA6 /* BankCardInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76350E1E2C2EDB0300A57AA6 /* BankCardInformation.swift */; };
+		766B6FF62C735D3C0003DF09 /* CheckmarkShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B6FF52C735D3C0003DF09 /* CheckmarkShape.swift */; };
+		766B6FF82C74AB5F0003DF09 /* ForceTouchWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B6FF72C74AB5F0003DF09 /* ForceTouchWrapper.swift */; };
+		7676A4D02C47EE2500F3E119 /* TransferMoneyViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676A4CF2C47EE2500F3E119 /* TransferMoneyViewViewController.swift */; };
+		7676A4D22C494BB200F3E119 /* TransferMoneyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676A4D12C494BB100F3E119 /* TransferMoneyTextField.swift */; };
+		7676A4D62C4950DE00F3E119 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7676A4D52C4950DE00F3E119 /* Montserrat-VariableFont_wght.ttf */; };
+		7676A4D82C4951E300F3E119 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7676A4D72C4951E300F3E119 /* Montserrat-SemiBold.ttf */; };
+		7676A4DA2C59319200F3E119 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676A4D92C59319200F3E119 /* GradientView.swift */; };
+		76C90E442BED272D00550759 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C90E432BED272D00550759 /* SourceSansPro-Bold.ttf */; };
+		76C90E472BED27A800550759 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C90E452BED27A800550759 /* SourceSansPro-Light.ttf */; };
+		76C90E482BED27A800550759 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C90E462BED27A800550759 /* SourceSansPro-Regular.ttf */; };
+		76C90E4A2BED2AE100550759 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E492BED2AE100550759 /* CustomTextField.swift */; };
+		76C90E5E2BED675C00550759 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C90E5D2BED675B00550759 /* SourceSansPro-SemiBold.ttf */; };
+		76C90E642BEE80A600550759 /* UserPersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E632BEE80A600550759 /* UserPersonalInformation.swift */; };
+		76C90E662BEE837B00550759 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E652BEE837B00550759 /* MainMenuViewController.swift */; };
+		76C90E682BEE89F800550759 /* BankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E672BEE89F800550759 /* BankCard.swift */; };
+		76C90E6A2BEE96A200550759 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E692BEE96A200550759 /* Extensions.swift */; };
+		76C90E6E2BF0D6CD00550759 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E6D2BF0D6CD00550759 /* CustomButton.swift */; };
+		76C90E702BF1272A00550759 /* OrderCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E6F2BF1272A00550759 /* OrderCardViewController.swift */; };
+		76C90E722BF1470F00550759 /* SwiftuiToUiKitTransofermer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E712BF1470F00550759 /* SwiftuiToUiKitTransofermer.swift */; };
+		76C90E742BF1800400550759 /* ExpandableLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C90E732BF1800300550759 /* ExpandableLabelViewController.swift */; };
+		76D3030B2C7C8EEB0051D911 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D3030A2C7C8EEB0051D911 /* Coordinator.swift */; };
+		76FDCA5D2BD841B60058BA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDCA5C2BD841B60058BA96 /* AppDelegate.swift */; };
+		76FDCA5F2BD841B60058BA96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDCA5E2BD841B60058BA96 /* SceneDelegate.swift */; };
+		76FDCA642BD841B60058BA96 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 76FDCA632BD841B60058BA96 /* Base */; };
+		76FDCA662BD841B90058BA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FDCA652BD841B90058BA96 /* Assets.xcassets */; };
+		76FDCA692BD841B90058BA96 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 76FDCA682BD841B90058BA96 /* Base */; };
+		76FDCA712BD848BB0058BA96 /* AnimatedGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDCA702BD848BB0058BA96 /* AnimatedGradientView.swift */; };
+		76FDCA732BD84AA50058BA96 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDCA722BD84AA50058BA96 /* RegistrationViewController.swift */; };
+		76FDCA752BD84AEC0058BA96 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FDCA742BD84AEC0058BA96 /* RegistrationController.swift */; };
+		76FFDA882C5FA47500B50F30 /* SelectDestinationCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFDA872C5FA47500B50F30 /* SelectDestinationCardViewController.swift */; };
+		76FFDA8A2C62336300B50F30 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFDA892C62336300B50F30 /* CardModel.swift */; };
+		76FFDAAA2C668D7600B50F30 /* CustomCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFDAA92C668D7600B50F30 /* CustomCarousel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		761887B32C24873300BD2CE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76350E112C29ACBE00A57AA6 /* CardDetailInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailInformation.swift; sourceTree = "<group>"; };
+		76350E132C29AD0500A57AA6 /* CardDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailService.swift; sourceTree = "<group>"; };
+		76350E152C29B3AD00A57AA6 /* CardDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailCell.swift; sourceTree = "<group>"; };
+		76350E182C2EB71300A57AA6 /* BankCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		76350E1C2C2EC5C200A57AA6 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		76350E1E2C2EDB0300A57AA6 /* BankCardInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardInformation.swift; sourceTree = "<group>"; };
+		766B6FF52C735D3C0003DF09 /* CheckmarkShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkShape.swift; sourceTree = "<group>"; };
+		766B6FF72C74AB5F0003DF09 /* ForceTouchWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchWrapper.swift; sourceTree = "<group>"; };
+		7676A4CF2C47EE2500F3E119 /* TransferMoneyViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewViewController.swift; sourceTree = "<group>"; };
+		7676A4D12C494BB100F3E119 /* TransferMoneyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyTextField.swift; sourceTree = "<group>"; };
+		7676A4D52C4950DE00F3E119 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../Library/Fonts (Removed)/07-18-2024 5_31_46 GMT+4/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		7676A4D72C4951E300F3E119 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../Downloads/Montserrat-2 2/static/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		7676A4D92C59319200F3E119 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		76C90E432BED272D00550759 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Bold.ttf"; path = "../../../CryptoTrackerCloned/Fonts/SF PRO/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		76C90E452BED27A800550759 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Light.ttf"; path = "../../../CryptoTrackerCloned/Fonts/SF PRO/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		76C90E462BED27A800550759 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Regular.ttf"; path = "../../../CryptoTrackerCloned/Fonts/SF PRO/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		76C90E492BED2AE100550759 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		76C90E5D2BED675B00550759 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-SemiBold.ttf"; path = "../../../CryptoTrackerCloned/Fonts/SF PRO/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		76C90E632BEE80A600550759 /* UserPersonalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersonalInformation.swift; sourceTree = "<group>"; };
+		76C90E652BEE837B00550759 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		76C90E672BEE89F800550759 /* BankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCard.swift; sourceTree = "<group>"; };
+		76C90E692BEE96A200550759 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		76C90E6D2BF0D6CD00550759 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		76C90E6F2BF1272A00550759 /* OrderCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCardViewController.swift; sourceTree = "<group>"; };
+		76C90E712BF1470F00550759 /* SwiftuiToUiKitTransofermer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiToUiKitTransofermer.swift; sourceTree = "<group>"; };
+		76C90E732BF1800300550759 /* ExpandableLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableLabelViewController.swift; sourceTree = "<group>"; };
+		76D3030A2C7C8EEB0051D911 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		76FDCA592BD841B60058BA96 /* Bank Respublika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bank Respublika.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FDCA5C2BD841B60058BA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76FDCA5E2BD841B60058BA96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76FDCA632BD841B60058BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76FDCA652BD841B90058BA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76FDCA682BD841B90058BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76FDCA6A2BD841B90058BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FDCA702BD848BB0058BA96 /* AnimatedGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientView.swift; sourceTree = "<group>"; };
+		76FDCA722BD84AA50058BA96 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		76FDCA742BD84AEC0058BA96 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		76FFDA872C5FA47500B50F30 /* SelectDestinationCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDestinationCardViewController.swift; sourceTree = "<group>"; };
+		76FFDA892C62336300B50F30 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		76FFDAA92C668D7600B50F30 /* CustomCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarousel.swift; sourceTree = "<group>"; };
+		7FD65C0ECB04A2CFEFEC16EF /* Pods_Bank_Respublika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bank_Respublika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FDCA562BD841B60058BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762789422C3C64B9007CB4DC /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A17E4942D47844E4C470CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD65C0ECB04A2CFEFEC16EF /* Pods_Bank_Respublika.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76350E0A2C299D2700A57AA6 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				76C90E672BEE89F800550759 /* BankCard.swift */,
+				76C90E712BF1470F00550759 /* SwiftuiToUiKitTransofermer.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		76350E0B2C299D4900A57AA6 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				76FDCA722BD84AA50058BA96 /* RegistrationViewController.swift */,
+				76FDCA742BD84AEC0058BA96 /* RegistrationController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		76350E0C2C299D7500A57AA6 /* Custom Object */ = {
+			isa = PBXGroup;
+			children = (
+				76C90E732BF1800300550759 /* ExpandableLabelViewController.swift */,
+				76C90E6D2BF0D6CD00550759 /* CustomButton.swift */,
+				76C90E492BED2AE100550759 /* CustomTextField.swift */,
+				76FDCA702BD848BB0058BA96 /* AnimatedGradientView.swift */,
+			);
+			path = "Custom Object";
+			sourceTree = "<group>";
+		};
+		76350E0F2C29A95C00A57AA6 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				76FDCA5E2BD841B60058BA96 /* SceneDelegate.swift */,
+				76FDCA5C2BD841B60058BA96 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		76350E102C29ABAC00A57AA6 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				76C90E652BEE837B00550759 /* MainMenuViewController.swift */,
+				76350E182C2EB71300A57AA6 /* BankCardCollectionViewCell.swift */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		76350E172C2EB2F500A57AA6 /* Order Card */ = {
+			isa = PBXGroup;
+			children = (
+				76C90E6F2BF1272A00550759 /* OrderCardViewController.swift */,
+				76350E152C29B3AD00A57AA6 /* CardDetailCell.swift */,
+				76350E132C29AD0500A57AA6 /* CardDetailService.swift */,
+				76350E112C29ACBE00A57AA6 /* CardDetailInformation.swift */,
+			);
+			path = "Order Card";
+			sourceTree = "<group>";
+		};
+		7676A4CD2C47EDB400F3E119 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				76350E1E2C2EDB0300A57AA6 /* BankCardInformation.swift */,
+				76C90E632BEE80A600550759 /* UserPersonalInformation.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		76C90E3A2BED224D00550759 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				76C90E452BED27A800550759 /* SourceSansPro-Light.ttf */,
+				76C90E462BED27A800550759 /* SourceSansPro-Regular.ttf */,
+				76C90E432BED272D00550759 /* SourceSansPro-Bold.ttf */,
+				76C90E5D2BED675B00550759 /* SourceSansPro-SemiBold.ttf */,
+				7676A4D52C4950DE00F3E119 /* Montserrat-VariableFont_wght.ttf */,
+				7676A4D72C4951E300F3E119 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		76FDCA502BD841B60058BA96 = {
+			isa = PBXGroup;
+			children = (
+				76FDCA5B2BD841B60058BA96 /* Bank Respublika */,
+				76FDCA5A2BD841B60058BA96 /* Products */,
+				6A17E4942D47844E4C470CB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76FDCA5A2BD841B60058BA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FDCA592BD841B60058BA96 /* Bank Respublika.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FDCA5B2BD841B60058BA96 /* Bank Respublika */ = {
+			isa = PBXGroup;
+			children = (
+				761887B22C24873300BD2CE0 /* Localizable.strings */,
+				76350E102C29ABAC00A57AA6 /* Main Menu */,
+				76350E0F2C29A95C00A57AA6 /* Delegates */,
+				76350E0C2C299D7500A57AA6 /* Custom Object */,
+				76350E0B2C299D4900A57AA6 /* Registration */,
+				76350E0A2C299D2700A57AA6 /* CardView */,
+				76350E172C2EB2F500A57AA6 /* Order Card */,
+				7676A4CD2C47EDB400F3E119 /* Entities */,
+				76C90E692BEE96A200550759 /* Extensions.swift */,
+				76FFDAA92C668D7600B50F30 /* CustomCarousel.swift */,
+				7676A4CF2C47EE2500F3E119 /* TransferMoneyViewViewController.swift */,
+				76FFDA872C5FA47500B50F30 /* SelectDestinationCardViewController.swift */,
+				76D3030A2C7C8EEB0051D911 /* Coordinator.swift */,
+				766B6FF52C735D3C0003DF09 /* CheckmarkShape.swift */,
+				76FFDA892C62336300B50F30 /* CardModel.swift */,
+				7676A4D92C59319200F3E119 /* GradientView.swift */,
+				7676A4D12C494BB100F3E119 /* TransferMoneyTextField.swift */,
+				76350E1C2C2EC5C200A57AA6 /* CardManager.swift */,
+				766B6FF72C74AB5F0003DF09 /* ForceTouchWrapper.swift */,
+				76FDCA622BD841B60058BA96 /* Main.storyboard */,
+				76FDCA652BD841B90058BA96 /* Assets.xcassets */,
+				76FDCA672BD841B90058BA96 /* LaunchScreen.storyboard */,
+				76FDCA6A2BD841B90058BA96 /* Info.plist */,
+				76C90E3A2BED224D00550759 /* Fonts */,
+			);
+			path = "Bank Respublika";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FDCA582BD841B60058BA96 /* Bank Respublika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FDCA6D2BD841B90058BA96 /* Build configuration list for PBXNativeTarget "Bank Respublika" */;
+			buildPhases = (
+				76FDCA552BD841B60058BA96 /* Sources */,
+				76FDCA562BD841B60058BA96 /* Frameworks */,
+				76FDCA572BD841B60058BA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bank Respublika";
+			packageProductDependencies = (
+				762789412C3C64B9007CB4DC /* SnapKit */,
+			);
+			productName = "Bank Respublika";
+			productReference = 76FDCA592BD841B60058BA96 /* Bank Respublika.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FDCA512BD841B60058BA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					76FDCA582BD841B60058BA96 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 76FDCA542BD841B60058BA96 /* Build configuration list for PBXProject "Bank Respublika" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FDCA502BD841B60058BA96;
+			packageReferences = (
+				76350E072C24EDE300A57AA6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 76FDCA5A2BD841B60058BA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FDCA582BD841B60058BA96 /* Bank Respublika */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FDCA572BD841B60058BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FDCA662BD841B90058BA96 /* Assets.xcassets in Resources */,
+				7676A4D82C4951E300F3E119 /* Montserrat-SemiBold.ttf in Resources */,
+				76C90E5E2BED675C00550759 /* SourceSansPro-SemiBold.ttf in Resources */,
+				76C90E472BED27A800550759 /* SourceSansPro-Light.ttf in Resources */,
+				76FDCA692BD841B90058BA96 /* Base in Resources */,
+				7676A4D62C4950DE00F3E119 /* Montserrat-VariableFont_wght.ttf in Resources */,
+				76C90E482BED27A800550759 /* SourceSansPro-Regular.ttf in Resources */,
+				761887B42C24873300BD2CE0 /* Localizable.strings in Resources */,
+				76FDCA642BD841B60058BA96 /* Base in Resources */,
+				76C90E442BED272D00550759 /* SourceSansPro-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FDCA552BD841B60058BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C90E6E2BF0D6CD00550759 /* CustomButton.swift in Sources */,
+				7676A4DA2C59319200F3E119 /* GradientView.swift in Sources */,
+				76D3030B2C7C8EEB0051D911 /* Coordinator.swift in Sources */,
+				76C90E742BF1800400550759 /* ExpandableLabelViewController.swift in Sources */,
+				76C90E4A2BED2AE100550759 /* CustomTextField.swift in Sources */,
+				76FFDA8A2C62336300B50F30 /* CardModel.swift in Sources */,
+				76C90E702BF1272A00550759 /* OrderCardViewController.swift in Sources */,
+				76350E162C29B3AD00A57AA6 /* CardDetailCell.swift in Sources */,
+				76C90E722BF1470F00550759 /* SwiftuiToUiKitTransofermer.swift in Sources */,
+				76C90E642BEE80A600550759 /* UserPersonalInformation.swift in Sources */,
+				766B6FF62C735D3C0003DF09 /* CheckmarkShape.swift in Sources */,
+				76FDCA5D2BD841B60058BA96 /* AppDelegate.swift in Sources */,
+				76FDCA5F2BD841B60058BA96 /* SceneDelegate.swift in Sources */,
+				76350E122C29ACBF00A57AA6 /* CardDetailInformation.swift in Sources */,
+				766B6FF82C74AB5F0003DF09 /* ForceTouchWrapper.swift in Sources */,
+				76350E192C2EB71300A57AA6 /* BankCardCollectionViewCell.swift in Sources */,
+				76FDCA732BD84AA50058BA96 /* RegistrationViewController.swift in Sources */,
+				76350E1F2C2EDB0300A57AA6 /* BankCardInformation.swift in Sources */,
+				7676A4D22C494BB200F3E119 /* TransferMoneyTextField.swift in Sources */,
+				76FDCA752BD84AEC0058BA96 /* RegistrationController.swift in Sources */,
+				76C90E682BEE89F800550759 /* BankCard.swift in Sources */,
+				7676A4D02C47EE2500F3E119 /* TransferMoneyViewViewController.swift in Sources */,
+				76350E142C29AD0500A57AA6 /* CardDetailService.swift in Sources */,
+				76FDCA712BD848BB0058BA96 /* AnimatedGradientView.swift in Sources */,
+				76C90E6A2BEE96A200550759 /* Extensions.swift in Sources */,
+				76C90E662BEE837B00550759 /* MainMenuViewController.swift in Sources */,
+				76350E1D2C2EC5C300A57AA6 /* CardManager.swift in Sources */,
+				76FFDAAA2C668D7600B50F30 /* CustomCarousel.swift in Sources */,
+				76FFDA882C5FA47500B50F30 /* SelectDestinationCardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		761887B22C24873300BD2CE0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761887B32C24873300BD2CE0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		76FDCA622BD841B60058BA96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FDCA632BD841B60058BA96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76FDCA672BD841B90058BA96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76FDCA682BD841B90058BA96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76FDCA6B2BD841B90058BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76FDCA6C2BD841B90058BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76FDCA6E2BD841B90058BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7756LG4P3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bank Respublika/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.info.Bank-Respublika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76FDCA6F2BD841B90058BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7756LG4P3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bank Respublika/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.info.Bank-Respublika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FDCA542BD841B60058BA96 /* Build configuration list for PBXProject "Bank Respublika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FDCA6B2BD841B90058BA96 /* Debug */,
+				76FDCA6C2BD841B90058BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FDCA6D2BD841B90058BA96 /* Build configuration list for PBXNativeTarget "Bank Respublika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FDCA6E2BD841B90058BA96 /* Debug */,
+				76FDCA6F2BD841B90058BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76350E072C24EDE300A57AA6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		762789412C3C64B9007CB4DC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76350E072C24EDE300A57AA6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 76FDCA512BD841B60058BA96 /* Project object */;
+}
